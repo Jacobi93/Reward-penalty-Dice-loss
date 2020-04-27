@@ -32,7 +32,7 @@ Pre-trained U-net models are in [model_bone](model_bone) of Experiment 1 and [mo
 
 ## Notes
 
-When we train our models with different loss functions, we should either implement them in Experiment 1 or 2, with details in our paper. In experiment 1, different bones are picked out for testing. In experiment 2, different surgeons are picked out for testing.  
+When we train our models with different loss functions, we should either implement them in Experiment 1 or 2. The code needs to be modified according to different experiments. In addition, models with different loss functions should be modified as well, with details in the code files. 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
