@@ -28,7 +28,7 @@ first experiment. It is very challenging for DCNN to generate comparable surgica
 is not as challenging as the first experiment.
 
 ## Pre-trained models
-Pre-trained U-net models are in [model_bone](model_bone) of Experiment 1 and [model_surgeon](model_surgeon) of Experiment 2.
+Pre-trained U-net models are in [model_bone](model_bone) of Experiment 1 and [model_surgeon](model_surgeon) of Experiment 2. They can be tested in [test_region.py](test_region.py) and used to generate surgical regions for new patients/bones.
 
 ## Notes
 
