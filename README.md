@@ -3,6 +3,10 @@
 The paper of this project, named ***Learning Non-Unique Segmentation with Reward-Penalty Dice Loss***, was accepted by WCCI (IJCNN) 2020. Most research and applications of semantic segmentation focus on addressing unique segmentation problems, where there is only one gold standard segmentation result for every input image. This may not be true in some problems, e.g., medical applications. We may have non-unique segmentation annotations as different surgeons may perform successful surgeries for the same patient in slightly different
 ways. To comprehensively learn non-unique segmentation tasks, we propose the reward-penalty Dice loss (RPDL) function as the optimization objective for deep convolutional neural networks (DCNN). RPDL is capable of helping DCNN learn non-unique segmentation by enhancing common regions and penalizing outside ones.
 
+<p align="center">
+<img src="learn.JPG" width="600">
+</p>
+
 ## Prerequisites
 Python 3.6, Tensorflow 1.14.0, Keras 2.2.4
 
