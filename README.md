@@ -32,7 +32,7 @@ Pre-trained U-net models are in [model_bone](model_bone) of Experiment 1 and [mo
 
 ## Notes
 
-When we train our models with different loss functions, we should either implement them in Experiment 1 or 2. The code needs to be modified according to different experiments. In addition, models with different loss functions should be modified as well, with details in the code files. 
+We only take the 3D U-net as an example in this repository. You can apply our RPDL in other DCNN models. RPDL with other baseline loss functions can be found in [model3d](model3d)/[metrics.py](metrics.py). When we train our models with different loss functions, we should either implement them in Experiment 1 or 2. Code needs to be modified according to different experiments. In addition, models with different loss functions should be modified as well, with details in the code files. 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
